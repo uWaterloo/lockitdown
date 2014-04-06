@@ -62,6 +62,10 @@ color: #f7941d;
 background: transparent;
 
 }
+.style1
+{
+    color:#55ACEE;
+}
 .global-footer
 {
     height:30px;
@@ -69,6 +73,7 @@ background: transparent;
     background-color:#252525;
     bottom:0;
     position:relative;
+    text-align:center;
 }
 .header-logo
 {
@@ -233,6 +238,7 @@ border-radius: 3px;
 {
 background: #252525;
 }
+
 .warning-box
 {
     border-right:1px solid #ededed;
@@ -242,8 +248,5 @@ background: #252525;
 }
 #twitter-holder
 {
-    height:40px;
-    width:40px;
-    border-radius:20px;
-    background:url(http://localhost:26373/Images/Twitter_logo_blue.png) no-repeat;
+    padding-top:15px;
 }
