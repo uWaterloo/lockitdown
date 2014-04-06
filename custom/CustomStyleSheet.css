@@ -1,0 +1,249 @@
+﻿.android-icon, .bb-icon, .ios-icon, .win-icon
+{
+    width:150px;
+    height:150px;
+}
+.android-icon
+{
+    background-image:url(../Images/android_logo_grayscale.png);
+}
+.android-icon:hover
+{
+    background-image:url(../Images/android_logo_displaced.png);
+}
+.bb-icon
+{
+    background-image:url(../Images/blackberry_logo_grayscale.png);
+}
+.bb-icon:hover
+{
+    background-image:url(../Images/blackberry_logo_displaced.png);
+}
+.ios-icon
+{
+    background-image:url(../Images/iphone_logo_grayscale.png);
+}
+.ios-icon:hover
+{
+    background-image:url(../Images/iphone_logo_displaced.png);
+}
+.win-icon
+{
+    background-image:url(../Images/win_logo_grayscale.png);
+}
+.win-icon:hover
+{
+    background-image:url(../Images/win_logo_displaced.png);
+}
+
+.breadcrumbs
+{
+    margin-bottom:0;
+    border-style:none;
+    background-color:#252525;
+}
+.breadcrumbs > *.current a 
+{
+cursor: default;
+color: #fff;
+}
+.breadcrumbs > * a, .breadcrumbs > * span 
+{
+text-transform: uppercase;
+color: #f7941d;
+}
+.bread-holder
+{
+    display:inline-block;
+    float:right;
+}
+[data-magellan-expedition] 
+{
+background: transparent;
+
+}
+.global-footer
+{
+    height:30px;
+    width:100%;
+    background-color:#252525;
+    bottom:0;
+    position:relative;
+}
+.header-logo
+{
+   height:50%;
+}
+.header-large
+{
+    width:100%;
+    background-color:#252525;
+}
+
+
+.info-body .warning
+{
+    margin-bottom:0;
+}
+
+.numbering
+{
+    background-color:#f7ac50;
+    border:2px solid #f7941d;
+    border-radius:6px;
+    font-weight:bold;
+    font-size:1rem;
+    color:#000;
+}
+
+.orbit-container 
+{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.os-icon-container 
+{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.os-icons 
+{
+    list-style: none;
+    margin: auto;
+    display: inline;
+}
+
+.os-icons li 
+{
+        display: inline-block;
+        margin: 20px;
+}
+
+
+.os-menu-left
+{
+    list-style:none;
+}
+.os-menu-left li
+{
+    margin-top:20px;
+}
+.paragraph
+{
+    float:right;
+    width:80%;
+}
+.page-title
+{
+    font-size:1.6rem;
+    background:#252525;
+    color:#fff;
+    padding:10px;
+    border-radius:3px;
+    margin-bottom:0;
+
+}
+.sub-nav dd
+{
+    font-size:1rem;
+}
+.section-header
+{
+    width:100%;
+    background:#252525;
+    border-top:3px solid #f7941d;
+}
+.splash-holder {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.splash-holder img 
+{
+    padding: 5px;
+}
+.sub-nav dt a, .sub-nav dd a, .sub-nav li a 
+{
+text-decoration: none;
+color: #252525;
+padding: 0.1875rem 1rem;
+background: #f7941d;
+border-radius: 3px;
+}
+
+.tab-holder
+{
+    margin:20px auto;
+    display:block;
+    text-align:center;
+
+}
+
+.tabs-content
+{
+
+    float:left;
+}
+
+.tabs dd.active > a
+{
+
+    font-size:1.1rem;
+}
+  .top-bar-section ul li:hover:not(.has-form) > a 
+  {
+    background: #353535;
+    color: #f7941d; 
+
+  }
+.top-bar-section li:not(.has-form) a:not(.button):hover 
+{
+    background:#353535; 
+}
+
+.top-bar-section ul li a
+{
+
+    color: #f7941d; 
+
+}
+.title-holder
+{
+    margin:15px 0;
+}
+.top-bar 
+{
+    background:#252525;
+    height:auto;
+}
+.top-bar-section ul
+{
+    margin-top:19px;
+    background-color:#252525;
+}
+.top-bar-section ul li
+{
+    height:69px;
+    margin-left:15px;
+}
+.top-bar-section li:not(.has-form) a:not(.button) 
+{
+background: #252525;
+}
+.warning-box
+{
+    border-right:1px solid #ededed;
+    border-left:1px solid #ededed;
+    border-bottom:1px solid #ededed;
+    padding:10px;
+}
+#twitter-holder
+{
+    height:40px;
+    width:40px;
+    border-radius:20px;
+    background:url(http://localhost:26373/Images/Twitter_logo_blue.png) no-repeat;
+}
