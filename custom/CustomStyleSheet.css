@@ -59,7 +59,8 @@ color: #f7941d;
 }
 [data-magellan-expedition] 
 {
-background: transparent;
+background: #252525;
+border-radius:3px;
 
 }
 .style1
