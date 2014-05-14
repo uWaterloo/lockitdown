@@ -59,16 +59,22 @@ color: #f7941d;
 }
 [data-magellan-expedition] 
 {
-background: transparent;
+background: #252525;
+border-radius:3px;
 
+}
+.style1
+{
+    color:#55ACEE;
 }
 .global-footer
 {
-    height:30px;
+    height:60px;
     width:100%;
     background-color:#252525;
     bottom:0;
     position:relative;
+    text-align:center;
 }
 .header-logo
 {
@@ -233,6 +239,19 @@ border-radius: 3px;
 {
 background: #252525;
 }
+.twitter-btn
+{
+    padding:5px 10px;
+    background-color:#252525;
+    border-radius:5px;
+    position:fixed;
+    opacity:0.75;
+    bottom:0;
+    z-index:500;
+    right:0;
+}
+
+
 .warning-box
 {
     border-right:1px solid #ededed;
@@ -242,8 +261,5 @@ background: #252525;
 }
 #twitter-holder
 {
-    height:40px;
-    width:40px;
-    border-radius:20px;
-    background:url(http://localhost:26373/Images/Twitter_logo_blue.png) no-repeat;
+    padding-top:15px;
 }

@@ -1,16 +1,19 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <!--If moving repositories or locations, only the base link needs to be changed-->
+    <base href="http://uwaterloo.github.io/lockitdown/" target="_self" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UWlockitdown - Android</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->
 
-    <link href="../foundation-5.2.1/css/normalize.css" rel="stylesheet" />
-    <link href="../foundation-5.2.1/css/foundation.css" rel="stylesheet" />
-    <link href="../custom/CustomStyleSheet.css" rel="stylesheet" />
-    <script src="../foundation-5.2.1/js/vendor/modernizr.js"></script>
+    <link href="foundation-5.2.1/css/normalize.css" rel="stylesheet" />
+    <link href="foundation-5.2.1/css/foundation.css" rel="stylesheet" />
+    <link href="custom/CustomStyleSheet.css" rel="stylesheet" />
+    <link href="foundation-icons/foundation-icons.css" rel="stylesheet">
+    <script src="foundation-5.2.1/js/vendor/modernizr.js"></script>
 </head>
 <body>
     <div class="header-large">
@@ -19,13 +22,14 @@
                 <nav class="top-bar hide-for-small" data-topbar>
                     <div class="uw-logo left">
                         <a href="http://uwaterloo.ca" style="width:169px">
-                            <img class="header-logo" style="width:169px; padding-left:10px; margin-right:25px" src="../Images/logo-uwsmall.png" />
+                            <img alt="University of Waterloo Logo" class="header-logo" style="width:169px; height:auto; padding-left:10px; margin-right:25px" src="Images/logo-uwsmall.png" />
                         </a>
                     </div>
                     <section class="top-bar-section">
                         <ul class="right">
+                            <li style="margin-top:-3px;height:auto"><a href="https://twitter.com/intent/tweet?text=This%20is%20how%20I%20&&hashtags=UWlockitdown&&url=http%3A%2F%2Fuwaterloo.ca%2Flockitdown"><i class="fi-social-twitter style1" style="font-size:50px"></i></a></li>
                             <li><h3 class="title" style="color:#F7941D; margin-top:5px">#UWlockitdown</h3></li>
-                            <li><a href="/lockitdown"><h3 style="color:#F7941D; margin-top:5px" class="title">Home</h3></a></li>
+                            <li><a href="index.html"><h3 style="color:#F7941D; margin-top:5px" class="title">Home</h3></a></li>
                         </ul>
                     </section>
                 </nav>
@@ -41,32 +45,32 @@
 
                 </section>
                 <section class="middle tab-bar-section">
-                    <!-- <div class="uw-logo" style="display:inline-block">
+                    <div class="uw-logo" style="display:inline-block">
                          <a href="http://uwaterloo.ca" style="width:150px">
-                             <img class="header-logo" style="width:140px; margin-left:0; margin-right:25px; margin-top:-15px" src="../Images/logo-uwsmall.png" />
+                             <img alt="University of Waterloo Logo" class="header-logo" style="width:140px; height:auto; margin-left:0; margin-right:25px; margin-top:-15px" src="Images/logo-uwsmall.png" />
                          </a>
-                     </div>
-                         -->
-                    <div class="middletab-bar-section" style="display:inline-block">
-                        <h1 class="title" style="color:#F7941D">#UWlockitdown</h1>
-                    </div>
+                     </div>                
                 </section>
 
             </nav>
             <aside class="left-off-canvas-menu">
                 <ul class="off-canvas-list">
-                    <li><a href="/lockitdown">Home</a></li>
-                    <li><a href="/lockitdown/info/ios.html">iOS</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="info/ios.html">iOS</a></li>
                     <li class="divider"></li>
-                    <li><a href="/lockitdown/info/android.html">Android</a></li>
+                    <li><a href="info/android.html">Android</a></li>
                     <li class="divider"></li>
-                    <li><a href="/lockitdown/info/windowsphone.html">Windows Phone</a></li>
+                    <li><a href="info/windowsphone.html">Windows Phone</a></li>
                 </ul>
             </aside>
             <a class="exit-off-canvas" href="#"></a>
             <!--/miniBar-->
 
-
+            <div class="twitter-btn-holder show-for-small">
+                <div class="twitter-btn">
+                    <a href="https://twitter.com/intent/tweet?text=This%20is%20how%20I%20&&hashtags=UWlockitdown&&url=http%3A%2F%2Fuwaterloo.ca%2Flockitdown"><i class="fi-social-twitter style1" style="font-size:50px"></i></a>
+                </div>
+            </div>
             <div id="content">
                 <div class="section-header">
                     <div class="row">
@@ -86,18 +90,18 @@
                 </div>
 
                 <div class="row" style="margin-top:10px">
-                    <div class="small-0 medium-2 large-3 columns hide-for-small">
+                    <div class="small-0 medium-3 large-3 columns hide-for-small">
                         <div class="left-menu-holder">
                             <ul class="os-menu-left">
-                                <li><a href="/lockitdown/info/ios.html"><div class="ios-icon"></div></a>
-                                <li><a href="/lockitdown/info/android.html"><div class="android-icon"></div></a>
-                                <li><a href="/lockitdown/info/windowsphone.html"><div class="win-icon"></div></a>
+                                <li><a href="info/ios.html"><div class="ios-icon"></div></a>
+                                <li><a href="info/android.html"><div class="android-icon"></div></a>
+                                <li><a href="info/windowsphone.html"><div class="win-icon"></div></a>
                             </ul>
                         </div>
                     </div>
 
                     <!--Steps-->
-                    <div class="small-12 medium-10 large-9 columns">
+                    <div class="small-12 medium-8 large-9 columns">
 
                         <div class="content">
                             <div class="info-body">
@@ -114,7 +118,7 @@
                                         </div>
                                         <div class="large-6 columns panel" data-equalizer-watch>
                                             <div class="donot-delete" style="height:480px">
-                                                <img src="../Images/BB_Screen_1.png" />
+                                                <img alt="Blackberry password setup one" src="Images/BB_Screen_1.png" />
                                             </div>
                                         </div>
                                     </div>
@@ -131,7 +135,7 @@
                                         </div>
                                         <div class="large-6 columns panel" data-equalizer-watch>
                                             <div class="donot-delete" style="height:480px">
-                                                <img src="../Images/BB_Screen_2.png" />
+                                                <img alt="Blackberry password setup two" src="Images/BB_Screen_2.png" />
                                             </div>
                                         </div>
                                     </div>
@@ -148,7 +152,7 @@
                                         </div>
                                         <div class="large-6 columns panel" data-equalizer-watch>
                                             <div class="donot-delete" style="height:480px">
-                                                <img src="../Images/BB_Screen_3.png" />
+                                                <img alt="Blackberry password setup three" src="Images/BB_Screen_3.png" />
                                             </div>
                                         </div>
                                     </div>
@@ -165,7 +169,7 @@
                                         </div>
                                         <div class="large-6 columns panel" data-equalizer-watch>
                                             <div class="donot-delete" style="height:480px">
-                                                <img src="../Images/BB_Screen_4.png" />
+                                                <img alt="Blackberry password setup four" src="Images/BB_Screen_4.png" />
                                             </div>
                                         </div>
                                     </div>
@@ -178,7 +182,7 @@
                                 <div class="step">
                                     <div class="row" data-equalizer>
                                         <h1 class="page-title" id="password">Set up a password (older devices)</h1>
-                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                        <div class="large-12 columns panel" data-equalizer-watch>
                                             <span class="label numbering">1</span>
                                             <div class="paragraph">
                                                 <p>
@@ -186,16 +190,11 @@
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="large-6 columns panel" data-equalizer-watch>
-                                            <div class="donot-delete" style="height:480px">
-                                                <img src="http://placehold.it/320x480" />
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                                 <div class="step">
                                     <div class="row" data-equalizer>
-                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                        <div class="large-12 columns panel" data-equalizer-watch>
                                             <span class="label numbering">2</span>
                                             <div class="paragraph">
                                                 <p>
@@ -203,16 +202,11 @@
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="large-6 columns panel" data-equalizer-watch>
-                                            <div class="donot-delete" style="height:480px">
-                                                <img src="http://placehold.it/320x480" />
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                                 <div class="step">
                                     <div class="row" data-equalizer>
-                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                        <div class="large-12 columns panel" data-equalizer-watch>
                                             <span class="label numbering">3</span>
                                             <div class="paragraph">
                                                 <p>
@@ -220,16 +214,11 @@
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="large-6 columns panel" data-equalizer-watch>
-                                            <div class="donot-delete" style="height:480px">
-                                                <img src="http://placehold.it/320x480" />
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                                 <div class="step">
                                     <div class="row" data-equalizer>
-                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                        <div class="large-12 columns panel" data-equalizer-watch>
                                             <span class="label numbering">4</span>
                                             <div class="paragraph">
                                                 <p>
@@ -239,16 +228,11 @@
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="large-6 columns panel" data-equalizer-watch>
-                                            <div class="donot-delete" style="height:480px">
-                                                <img src="http://placehold.it/320x480" />
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                                 <div class="step">
                                     <div class="row" data-equalizer>
-                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                        <div class="large-12 columns panel" data-equalizer-watch>
                                             <span class="label numbering">5</span>
                                             <div class="paragraph">
                                                 <p>
@@ -261,11 +245,6 @@
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="large-6 columns panel" data-equalizer-watch>
-                                            <div class="donot-delete" style="height:480px">
-                                                <img src="http://placehold.it/320x480" />
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -276,31 +255,34 @@
                                     <div class="row" data-equalizer>
                                         <h1 class="page-title" id="password">Enable Phone Location</h1>
                                         <div class="large-12 columns panel" data-equalizer-watch>
-                                            <div class="paragraph">
-                                                <p>
-                                                    BlackBerry Protect is a fantastic tool that most BlackBerry users are familiar with. It provides the user with 
-                                                    everything they need to find the phone’s GPS location, lock the screen and have it ring or even wipe everything 
-                                                    from its memory. However, to find your phone these are the steps that need to be followed:
-                                                </p>
-                                            </div>
+                                            <p>
+                                                <strong><a href="https://protect.blackberry.com">BlackBerry Protect</a></strong> is a fantastic tool that most BlackBerry users are familiar with. It provides the user with
+                                                everything they need to find the phone’s GPS location, lock the screen and have it ring or even wipe everything
+                                                from its memory. However, to find your phone these are the steps that need to be followed:
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="step">
                                     <div class="row" data-equalizer>
-                                        <div class="large-12 columns panel" data-equalizer-watch>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
                                             <span class="label numbering">1</span>
-                                            <div class="paragraph">                                           
+                                            <div class="paragraph">
                                                 <p>
                                                     From the Home Screen, swipe down from the top and select System Settings on your device and then select BlackBerry Protect
                                                 </p>
                                             </div>
                                         </div>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <div class="donot-delete" style="height:480px">
+                                                <img alt="Find your Blackberry one" src="Images/bbfyf1-1.jpg" />
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="step">
                                     <div class="row" data-equalizer>
-                                        <div class="large-12 columns panel" data-equalizer-watch>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
                                             <span class="label numbering">2</span>
                                             <div class="paragraph">
                                                 <p>
@@ -308,11 +290,16 @@
                                                 </p>
                                             </div>
                                         </div>
+                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                            <div class="donot-delete" style="height:480px">
+                                                <img alt="Find your Blackberry two" src="Images/bbfyf1-2.jpg" />
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="step">
                                     <div class="row" data-equalizer>
-                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                        <div class="large-12 columns panel" data-equalizer-watch>
                                             <span class="label numbering">3</span>
                                             <div class="paragraph">
                                                 <p>
@@ -320,31 +307,30 @@
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="large-6 columns panel" data-equalizer-watch>
-                                            <div class="donot-delete" style="height:480px">
-                                                <img src="http://placehold.it/320x480" />
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                                 <div class="step">
                                     <div class="row" data-equalizer>
-                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                        <div class="large-12 columns panel" data-equalizer-watch>
                                             <span class="label numbering">4</span>
                                             <div class="paragraph">
                                                 <p>
-                                                    Now that Protect is working, you could by all means go out and lose your phone. Actually, go on, I dare you to go out and lose your phone! Okay, 
-                                                    fine, don’t, but let’s say that you did accidentally lose it or put it in the fridge and forgot about it. Punch in <strong>protect.blackberry.com</strong> on the first 
-                                                    browser you can get a hold of after learning you lost your BlackBerry. Log in using your BlackBerry ID credentials - these are the same ones you set when 
+                                                    Now that Protect is working, you could by all means go out and lose your phone. Actually, go on, I dare you to go out and lose your phone! Okay,
+                                                    fine, don’t, but let’s say that you did accidentally lose it or put it in the fridge and forgot about it. Punch in <strong><a href="https://protect.blackberry.com">protect.blackberry.com</a></strong> on the first
+                                                    browser you can get a hold of after learning you lost your BlackBerry. Log in using your BlackBerry ID credentials - these are the same ones you set when
                                                     you first booted up your Z10, Q10, or Q5, and the same password you use to authenticate BlackBerry World purchases.
                                                     From here, it’s a simple matter of clicking <strong>View Location</strong> from the menu items in the web browser.
 
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="large-6 columns panel" data-equalizer-watch>
-                                            <div class="donot-delete" style="height:480px">
-                                                <img src="http://placehold.it/320x480" />
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <div class="row" data-equalizer>
+                                        <div class="large-12 columns panel" data-equalizer-watch>
+                                            <div class="donot-delete" style="height:420px">
+                                                <img alt="Find your Blackberry three" src="Images/bbfyf3.jpg" />
                                             </div>
                                         </div>
                                     </div>
@@ -352,21 +338,24 @@
                             </div>
                         </div>
                     </div>
+                    <div class="small-0 medium-1 large-0"></div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="global-footer hide-for-small" style="position:fixed">
-        <div id="twitter-holder"></div>
-    </div>
-    <div class="global-footer show-for-small" style="height:60px">
-        <div id="twitter-holder"></div>
+
+    <div class="global-footer">
     </div>
 
-    <script src="../foundation-5.2.1/js/vendor/jquery.js"></script>
-    <script src="../foundation-5.2.1/js/foundation.min.js"></script>
+    <script src="foundation-5.2.1/js/vendor/jquery.js"></script>
+    <noscript>You do not have scripts enabled. Enable scripts to properly view this content.</noscript>
+    <script src="foundation-5.2.1/js/foundation.min.js"></script>
+    <noscript>You do not have scripts enabled. Enable scripts to properly view this content.</noscript>
     <script>
         $(document).foundation();
     </script>
+    <noscript>You do not have scripts enabled. Enable scripts to properly view this content.</noscript>
+    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+    <noscript>You do not have scripts enabled. Enable scripts to properly view this content.</noscript>
 </body>
 </html>
