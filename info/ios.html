@@ -1,16 +1,19 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <!--If moving repositories or locations, only the base link needs to be changed-->
+    <base href="http://uwaterloo.github.io/lockitdown/" target="_self" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UWlockitdown - iPhone</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->
 
-    <link href="../foundation-5.2.1/css/normalize.css" rel="stylesheet" />
-    <link href="../foundation-5.2.1/css/foundation.css" rel="stylesheet" />
-    <link href="../custom/CustomStyleSheet.css" rel="stylesheet" />
-    <script src="../foundation-5.2.1/js/vendor/modernizr.js"></script>
+    <link href="foundation-5.2.1/css/normalize.css" rel="stylesheet" />
+    <link href="foundation-5.2.1/css/foundation.css" rel="stylesheet" />
+    <link href="custom/CustomStyleSheet.css" rel="stylesheet" />
+    <link href="foundation-icons/foundation-icons.css" rel="stylesheet">
+    <script src="foundation-5.2.1/js/vendor/modernizr.js"></script>
 </head>
 <body>
     <div class="header-large">
@@ -19,13 +22,14 @@
                 <nav class="top-bar hide-for-small" data-topbar>
                     <div class="uw-logo left">
                         <a href="http://uwaterloo.ca" style="width:169px">
-                            <img class="header-logo" style="width:169px; padding-left:10px; margin-right:25px" src="../Images/logo-uwsmall.png" />
+                            <img alt="University of Waterloo Logo" class="header-logo" style="width:169px; height:auto; padding-left:10px; margin-right:25px" src="Images/logo-uwsmall.png" />
                         </a>
                     </div>
                     <section class="top-bar-section">
                         <ul class="right">
+                            <li style="margin-top:-3px;height:auto"><a href="https://twitter.com/intent/tweet?text=This%20is%20how%20I%20&&hashtags=UWlockitdown&&url=http%3A%2F%2Fuwaterloo.ca%2Flockitdown"><i class="fi-social-twitter style1" style="font-size:50px"></i></a></li>
                             <li><h3 class="title" style="color:#F7941D; margin-top:5px">#UWlockitdown</h3></li>
-                            <li><a href="/lockitdown"><h3 style="color:#F7941D; margin-top:5px" class="title">Home</h3></a></li>
+                            <li><a href="index.html"><h3 style="color:#F7941D; margin-top:5px" class="title">Home</h3></a></li>
                         </ul>
                     </section>
                 </nav>
@@ -41,32 +45,32 @@
 
                 </section>
                 <section class="middle tab-bar-section">
-                    <!-- <div class="uw-logo" style="display:inline-block">
+                    <div class="uw-logo" style="display:inline-block">
                          <a href="http://uwaterloo.ca" style="width:150px">
-                             <img class="header-logo" style="width:140px; margin-left:0; margin-right:25px; margin-top:-15px" src="../Images/logo-uwsmall.png" />
+                             <img alt="University of Waterloo Logo" class="header-logo" style="width:140px; height:auto; margin-left:0; margin-right:25px; margin-top:-15px" src="Images/logo-uwsmall.png" />
                          </a>
                      </div>
-                         -->
-                    <div class="middletab-bar-section" style="display:inline-block">
-                        <h1 class="title" style="color:#F7941D">#UWlockitdown</h1>
-                    </div>
                 </section>
 
             </nav>
             <aside class="left-off-canvas-menu">
                 <ul class="off-canvas-list">
-                    <li><a href="/lockitdown">Home</a></li>
-                    <li><a href="/lockitdown/info/android.html">Android</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="info/android.html">Android</a></li>
                     <li class="divider"></li>
-                    <li><a href="/lockitdown/info/blackberry.html">Blackberry</a></li>
+                    <li><a href="info/blackberry.html">Blackberry</a></li>
                     <li class="divider"></li>
-                    <li><a href="/lockitdown/info/windowsphone.html">Windows Phone</a></li>
+                    <li><a href="info/windowsphone.html">Windows Phone</a></li>
                 </ul>
             </aside>
             <a class="exit-off-canvas" href="#"></a>
             <!--/miniBar-->
 
-
+            <div class="twitter-btn-holder show-for-small">
+                <div class="twitter-btn">
+                    <a href="https://twitter.com/intent/tweet?text=This%20is%20how%20I%20&&hashtags=UWlockitdown&&url=http%3A%2F%2Fuwaterloo.ca%2Flockitdown"><i class="fi-social-twitter style1" style="font-size:50px"></i></a>
+                </div>
+            </div>
             <div id="content">
                 <div class="section-header">
                     <div class="row">
@@ -86,19 +90,18 @@
                 </div>
 
                 <div class="row" style="margin-top:10px">
-                    <div class="small-0 medium-2 large-3 columns hide-for-small">
+                    <div class="small-0 medium-3 large-3 columns hide-for-small">
                         <div class="left-menu-holder">
                             <ul class="os-menu-left">
-                                <li><a href="/lockitdown/info/android.html"><div class="android-icon"></div></a>
-                                <li><a href="/lockitdown/info/blackberry.html"><div class="bb-icon"></div></a>
-                                <li><a href="/lockitdown/info/windowsphone.html"><div class="win-icon"></div></a>
+                                <li><a href="info/android.html"><div class="android-icon"></div></a>
+                                <li><a href="info/blackberry.html"><div class="bb-icon"></div></a>
+                                <li><a href="info/windowsphone.html"><div class="win-icon"></div></a>
                             </ul>
                         </div>
                     </div>
 
                     <!--Steps-->
-                    <div class="small-12 medium-10 large-9 columns">
-
+                    <div class="small-12 medium-8 large-9 columns">
                         <div class="content">
                             <div class="info-body">
                                 <div class="step">
@@ -114,7 +117,7 @@
                                         </div>
                                         <div class="large-6 columns panel" data-equalizer-watch>
                                             <div class="donot-delete" style="height:480px">
-                                                <img src="../Images/Apple_Screen_1.png" />
+                                                <img alt="iPhone password setup one" src="Images/Apple_Screen_1.png" />
                                             </div>
                                         </div>
                                     </div>
@@ -125,7 +128,7 @@
                                             <span class="label numbering">2</span>
                                             <div class="paragraph">
                                                 <p>
-                                                    Select <strong>Turn Passcode On</strong> and enter your desired 4 digit code.
+                                                    Select <strong>Turn Passcode On</strong> and enter your desired 4 didgit code.
                                                     <strong>NB:</strong> If you are using the iPhone 5s you can set up a fingerprint lock.
                                                     Setup for this can be found under <strong>General -> TouchID and Passcode -> TouchID</strong>.
                                                 </p>
@@ -133,7 +136,7 @@
                                         </div>
                                         <div class="large-6 columns panel" data-equalizer-watch>
                                             <div class="donot-delete" style="height:480px">
-                                                <img src="../Images/Apple_Screen_2.png" />
+                                                <img alt="iPhone password setup two" src="Images/Apple_Screen_2.png" />
                                             </div>
                                         </div>
                                     </div>
@@ -147,8 +150,8 @@
                                         <h1 class="page-title" id="password">Finding your iPhone</h1>
                                         <div class="large-12 columns panel" data-equalizer-watch>
                                             <p>
-                                                <strong><a href="www.apple.com/ca/icloud/find-my-iphone.html‎">Find My iPhone</a></strong> is a service that comes free with every iOS device and Mac computer, and it allows you to track your iPhone, whether it was 
-                                                lost or stolen. Of course, it only works when the phone is on and it has a signal, so if your phone gets stolen and the thief was smart enough 
+                                                <strong><a href="www.apple.com/ca/icloud/find-my-iphone.html">Find My iPhone</a></strong> is a service that comes free with every iOS device and Mac computer, and it allows you to track your iPhone, whether it was
+                                                lost or stolen. Of course, it only works when the phone is on and it has a signal, so if your phone gets stolen and the thief was smart enough
                                                 to turn off the phone or put it in Airplane Mode, Find My iPhone won’t work, but it’ll at least give you a fighting chance. Here’s how to use it:
                                             </p>
                                         </div>
@@ -158,26 +161,23 @@
                                     <div class="row" data-equalizer>
                                         <div class="large-12 columns panel" data-equalizer-watch>
                                             <span class="label numbering">1</span>
-                                            <p>
-                                                First step is first; make sure the service is set-up. You can do this by downloading the <strong>Find My Phone</strong> app from the App Store.
-                                            </p>
+                                            <div class="paragraph">
+                                                <p>
+                                                    First step is first; make sure the service is set-up. You can do this by downloading the <strong>Find My Phone</strong> app from the App Store.
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="step">
                                     <div class="row" data-equalizer>
-                                        <div class="large-6 columns panel" data-equalizer-watch>
+                                        <div class="large-12 columns panel" data-equalizer-watch>
                                             <span class="label numbering">2</span>
                                             <div class="paragraph">
                                                 <p>
                                                     Once the app has finished installing, go into <strong>Settings</strong> and tap on <strong>iCloud</strong>. Scroll down until you see Find My iPhone and switch it ON.
                                                 </p>
-                                            </div>
-                                        </div>
-                                        <div class="large-6 columns panel" data-equalizer-watch>
-                                            <div class="donot-delete" style="height:480px">
-                                                <img src="http://placehold.it/320x480" />
                                             </div>
                                         </div>
                                     </div>
@@ -199,9 +199,11 @@
                                         <h1 class="page-title" id="password">Using another mobile device</h1>
                                         <div class="large-12 columns panel" data-equalizer-watch>
                                             <span class="label numbering">1</span>
-                                            <p>
-                                                If your friend has an iPhone, you can log into the Find My iPhone app on his/her iPhone to see where your own iOS device is located; just make sure to log out when you’re done so that your friend can’t log back in and see where you’re at in the future.
-                                            </p>
+                                            <div class="paragraph">
+                                                <p>
+                                                    If your friend has an iPhone, you can log into the Find My iPhone app on his/her iPhone to see where your own iOS device is located; just make sure to log out when you’re done so that your friend can’t log back in and see where you’re at in the future.
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -246,9 +248,11 @@
                                         <h1 class="page-title" id="password">Using a Computer</h1>
                                         <div class="large-12 columns panel" data-equalizer-watch>
                                             <span class="label numbering">1</span>
-                                            <p>
-                                                To start, head to <a href="https://www.icloud.com">www.icloud.com</a> and log in using your Apple ID information. You’ll be greeted with a handful of apps arranged similarly to how your iPhone home screen looks. Click on the Find My iPhone icon and you’ll be taken to a full-screen map with dots representing where various Apple devices that you own are located.
-                                            </p>
+                                            <div class="paragraph">
+                                                <p>
+                                                    To start, head to <a href="www.icloud.com">www.icloud.com</a> and log in using your Apple ID information. You’ll be greeted with a handful of apps arranged similarly to how your iPhone home screen looks. Click on the Find My iPhone icon and you’ll be taken to a full-screen map with dots representing where various Apple devices that you own are located.
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -264,26 +268,27 @@
                                         </div>
                                     </div>
                                 </div>
-
-
                             </div>
                         </div>
                     </div>
+                    <div class="small-0 medium-1 large-0"></div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="global-footer hide-for-small" style="position:fixed">
-        <div id="twitter-holder"></div>
-    </div>
-    <div class="global-footer show-for-small" style="height:60px">
-        <div id="twitter-holder"></div>
+
+    <div class="global-footer">
     </div>
 
-    <script src="../foundation-5.2.1/js/vendor/jquery.js"></script>
-    <script src="../foundation-5.2.1/js/foundation.min.js"></script>
+    <script src="foundation-5.2.1/js/vendor/jquery.js"></script>
+    <noscript>You do not have scripts enabled. Enable scripts to properly view this content.</noscript>
+    <script src="foundation-5.2.1/js/foundation.min.js"></script>
+    <noscript>You do not have scripts enabled. Enable scripts to properly view this content.</noscript>
     <script>
         $(document).foundation();
     </script>
+    <noscript>You do not have scripts enabled. Enable scripts to properly view this content.</noscript>
+    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+    <noscript>You do not have scripts enabled. Enable scripts to properly view this content.</noscript>
 </body>
 </html>
