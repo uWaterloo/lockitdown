@@ -1,4 +1,4 @@
-﻿.android-icon, .bb-icon, .ios-icon, .win-icon
+﻿.android-icon, .bb-icon, .ios-icon, .win-icon, .auth-icon
 {
     width:150px;
     height:150px;
@@ -34,6 +34,10 @@
 .win-icon:hover
 {
     background-image:url(../Images/win_logo_displaced.png);
+}
+.auth-icon {
+background-image: url(http://www.fancyicons.com/free-icons/221/modern-anti-malware/png/256/thief_256.png);
+background-size: 150px;
 }
 
 .breadcrumbs
