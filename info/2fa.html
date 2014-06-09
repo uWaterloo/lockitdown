@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--If moving repositories or locations, only the base link needs to be changed-->
+    <base href="http://uwaterloo.github.io/lockitdown/" target="_self" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UWlockitdown - Two Factor Authentication</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->
+
+    <link href="foundation-5.2.1/css/normalize.css" rel="stylesheet" />
+    <link href="foundation-5.2.1/css/foundation.css" rel="stylesheet" />
+    <link href="custom/CustomStyleSheet.css" rel="stylesheet" />
+    <link href="foundation-icons/foundation-icons.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="http://uwaterloo.github.io/lockitdown/custom/style.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="https://uwaterloo.ca/sites/uwaterloo.ca/files/css/css_3hx9OtXQwiJh777W4155jBEc6Be9SPp5-FhSvqTEM-8.css" media="all" />
+    <script src="foundation-5.2.1/js/vendor/modernizr.js"></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51475853-1', 'uwaterloo.github.io');
+  ga('send', 'pageview');
+
+    </script>
+</head>
+<body>
+    </div>
+    <!-- Mailing list Alert -->
+    <div data-alert class="alert-box info" style="margin-bottom:0em">
+        <a href="mailto:helpdesk@uwaterloo.ca?subject=Register-me-for-SEW-120-Course-NOW!&amp;body=Add me to the mailing list as well"><div style="color: rgb(34, 18, 218);font-family: Arial, Times, serif;font-size: 1.5em;text-align: center;">REGISTER NOW IN OUR <strong>NEW MOBILE DEVICES SECURITY</strong> COURSE!!</div></a>
+        <a href="#" class="close">&times;</a>
+    </div>
+    <div class="header-large">
+        <div class="row">
+            <div class=" large-12">
+                <nav class="top-bar hide-for-small" data-topbar>
+                    <div class="uw-logo left">
+                        <a href="http://uwaterloo.ca" style="width:169px">
+                            <img alt="University of Waterloo Logo" class="header-logo" style="width:169px; height:auto; padding-left:10px; margin-right:25px" src="Images/logo-uwsmall.png" />
+                        </a>
+                    </div>
+                    <section class="top-bar-section">
+                        <ul class="right">
+                            <li style="margin-top:-3px;height:auto"><a href="https://twitter.com/intent/tweet?text=This%20is%20how%20I%20&&hashtags=UWlockitdown&&url=http%3A%2F%2Fuwaterloo.ca%2Flockitdown"><i class="fi-social-twitter style1" style="font-size:50px"></i></a></li>
+                            <li><h3 class="title" style="color:#F7941D; margin-top:5px">#UWlockitdown</h3></li>
+                            <li><a href="index.html"><h3 style="color:#F7941D; margin-top:5px" class="title">Home</h3></a></li>
+                        </ul>
+                    </section>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--/Topbar-->
+    <div class="off-canvas-wrap">
+        <div class="inner-wrap">
+            <nav class="tab-bar show-for-small">
+                <section class="left-small">
+                    <a class="left-off-canvas-toggle menu-icon"><span></span></a>
+
+                </section>
+                <section class="middle tab-bar-section">
+                    <div class="uw-logo" style="display:inline-block">
+                         <a href="http://uwaterloo.ca" style="width:150px">
+                             <img alt="University of Waterloo Logo" class="header-logo" style="width:140px; height:auto; margin-left:0; margin-right:25px; margin-top:-15px" src="Images/logo-uwsmall.png" />
+                         </a>
+                     </div>
+                </section>
+
+            </nav>
+            <aside class="left-off-canvas-menu">
+                <ul class="off-canvas-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="info/ios.html">iOS</a></li>
+                    <li class="divider"></li>
+                    <li><a href="info/blackberry.html">Blackberry</a></li>
+                    <li class="divider"></li>
+                    <li><a href="info/windowsphone.html">Windows Phone</a></li>
+                    <li class="divider"></li>
+                    <li><a href="info/android.html">Android</a></li>
+                </ul>
+            </aside>
+            <a class="exit-off-canvas" href="#"></a>
+            <!--/miniBar-->
+
+            <div class="twitter-btn-holder show-for-small">
+                <div class="twitter-btn">
+                    <a href="https://twitter.com/intent/tweet?text=This%20is%20how%20I%20&&hashtags=UWlockitdown&&url=http%3A%2F%2Fuwaterloo.ca%2Flockitdown"><i class="fi-social-twitter style1" style="font-size:50px"></i></a>
+                </div>
+            </div>
+            <div id="content">
+                <div class="section-header">
+                    <div class="row">
+                        <div class="large-12">
+                            <div class="title-holder">
+                                <h1 class="page-title">TWO FACTOR AUTHENTICATION & DATA ENCRYPTION</h1>
+                            </div>
+                            <div class="magellan-container" data-magellan-expedition="fixed">
+                                <dl class="sub-nav">
+                                    <dd data-magellan-arrival="2fa"><a href="#2fa">Two Factor Authentication</a></dd>
+                                    <dd data-magellan-arrival="encryption"><a href="#encryption">Data Encryption</a></dd>
+                                    <dd data-magellan-arrival="encrypt"><a href="#encrypt">Encrypt your Phone</a></dd>
+
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Document body -->
+                <div class="row" style="margin-top:10px">
+                    <div class="small-0 medium-3 large-3 columns hide-for-small">
+                        <div class="left-menu-holder">
+                            <ul class="os-menu-left">
+                                <li><a href="info/ios.html"><div class="ios-icon"></div></a>
+                                <li><a href="info/blackberry.html"><div class="bb-icon"></div></a>
+                                <li><a href="info/windowsphone.html"><div class="win-icon"></div></a>
+                                <li><a href="info/android.html"><div class="android-icon"></div></a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="small-12 medium-8 large-9 columns">
+                        <div class="content">
+                            <div class="content" id="2fa">
+                                <div class="info-body">
+                                    <div class="step">
+                                        <div class="row" data-equalizer>
+                                            <h1 class="page-title" id="password">What is Two Factor Authentication?</h1>
+                                            <div class="large-12 columns panel" data-equalizer-watch>
+                                                <p>
+                                                    Most people are used to just providing a user ID and password to authenticate to Web sites. Since user IDs are often made public, your security depends on keeping your password a secret. The recent Heartbleed bug recently exposed on many Web servers is the latest proof that relying on passwords alone is risky. Two-factor authentication (2FA) is one way that can protect your accounts and data, even if your password falls into the wrong hands.
+                                                </p>
+                                                <p>
+                                                    Two-factor authentication requires an additional piece of information to be provided when you authenticate. Since a password is something you know, that information can potentially be transferred to someone else. Adding an additional piece of information to the authentication process would provide a bit better security, but has the same potential to be stolen as a password does. A better solution is to link the second piece of information to something only you possess. A familiar example of this is authentication to banking Web sites, which require you to enter your bank card number along with your user ID and password.
+                                                </p>
+                                                <p>
+                                                    Two-factor authentication on mobile computing devices is often done by linking the second authentication factor directly to your mobile phone. This is done by sending an access code via a text message to your phone, after you authenticate with your user ID and password to a Web site that allows two-factor authentication. You then enter this additional access code as your second authentication factor, before you are allowed in to the Web site. The access code changes each time your log in, so only the person who has your phone can get into the Web site, even if your password has been compromised. Two-factor authentication is available for many popular Web services, including Google, Facebook, etc. You have to enable 2FA from you account on Web services that offer it.
+                                                </p>
+                                                <p>
+                                                    There are a few problems associated with 2FA. It becomes slightly more inconvenient to authenticate, because you have to wait a few seconds to receive the second access code from your Web sites. Also, if you lose your phone, you could be locked out of your Web accounts until you can take steps to re-enable access. How this is done varies from Web site to Web site. Wide use of two-factor authentication is relatively new and some of the glitches are still being worked out. However, we believe 2FA is worth considering.
+                                                </p>
+                                                <p>
+                                                    There are mobile apps for your smart phone that help you manage two-factor authentication, including Google Authenticator, Authy, etc. These keep track of which Web services you are protecting this way, and facilitate 2FA for your various mobile apps. Authy allows multiple mobile devices to manage the 2FA.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small-12 medium-8 large-9 columns">
+                        <div class="content">
+                            <div class="content" id="encryption">
+                                <div class="info-body">
+                                    <div class="step">
+                                        <div class="row" data-equalizer>
+                                            <h1 class="page-title" id="encryption">Data Encryption</h1>
+                                            <div class="large-12 columns panel" data-equalizer-watch>
+                                                <p>
+                                                    Encryption a process of encoding the data on the storage media on your mobile device, so that only you can read it. The encryption process protects your private data if you lose your device, even if the storage media is removed for analysis. Most modern mobile device operating systems have this security feature, but it is not turned on by default. We recommend turning it on only if your device is new, and only when it is plugged in to an electrical charger.
+                                                </p>
+                                                <p>
+                                                    There is some risk of data loss or loss of access to your mobile device if you turn on encryption when you have a lot of data already on your device, or if the battery runs out before the process is completed. If you've been using your device for some time and want to turn on encryption, you should first back up your data. Some mobile device vendors allow you to back up your data to a your cloud storage account with them.
+                                                </p>
+                                                <p>
+                                                    If you turn on data encryption, you will be asked to set a password on your device. This password is used to generate the encryption key to encode the data and to make it readable again when you start the device or wake it up from a standby state. Make sure you choose a strong password. A guessable password allows the encryption to be defeated also.
+                                                </p>
+                                                <p>
+                                                    If you forget your password, you will also lose access to your device and all its data. Most mobile operating systems provide a way to store your password on your cloud storage account with them. Backup storage of an encryption key is called key esckow.
+                                                </p>
+                                            <h2 class="page-title" id="encrypt" style="color:white; font-size:2em">How to Encrypt Your Phone</h2>
+                                            <div class="large-12 columns panel" data-equalizer-watch>
+                                                    iPhone
+                                                    <ul>
+                                                        <li>
+                                                        To enable hardware encryption on iPhone (3GS and later) all you have to do is make sure you have a passcode for your device and your data will be automatically protected. If you do not already have a passcode for your device go to Settings -> General -> Passcode. After creating a secure passcode scroll down and select enable data protection.
+                                                        </li>
+                                                    </ul>
+                                                    Android
+                                                    <ul>
+                                                        <li>
+                                                        To enable data encryption on an android device you must first have a lock screen PIN or password on your device. To create a PIN/password if you don’t already have one, go to Settings -> Security->Screen Lock and then select PIN or password to create a new PIN or password. Now to encrypt your phone go to Settings -> Security -> Encryption then select Encrypt phone.  Your phone will then begin the encryption process which may take an hour or more and usually requires your device to be plugged in to a charger.
+                                                        </li>
+                                                    </ul>
+                                                    BlackBerry
+                                                    <ul>
+                                                        <li>
+                                                        To enable device encryption on a blackberry phone (Q 10 or Z 10) go to Settings -> Security -> Encryption and switch the device encryption switch to On.
+                                                        </li>
+                                                    </ul>
+                                                    Windows Phone
+                                                    <ul>
+                                                        <li>
+                                                            Windows phone currently only supports device encryption when you also have an Microsoft Exchange server ActiveSync account. The encryption  function on your device can only be enabled by your Exchange server administrator.
+                                                        </li>
+                                                    </ul>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small-0 medium-1 large-0"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Footer -->
+    <div id="header" style="width:20%">
+    
+</div>
+<div id="container" style="width:80%">
+<div id="footer">
+    
+<div id="uw-footer" class="clearfix">
+  <div id="uw-footer-address" about="//uwaterloo.ca/" typeof="v:VCard">
+    <div class="element-hidden">
+      <div property="v:fn">University of Waterloo</div>
+      <div rel="v:org">
+        <div property="v:organisation-name">University of Waterloo</div>
+      </div>
+      <div rel="v:geo">
+        <div property="v:latitude">43.471468</div>
+        <div property="v:longitude">-80.544205</div>
+      </div>
+    </div>
+    <div rel="v:adr">
+      <div property="v:street-address">200 University Avenue West</div>
+      <div>
+        <span property="v:locality">Waterloo</span>,
+        <span property="v:region">ON</span>,
+        <span property="v:country-name">Canada</span>&nbsp;
+        <span property="v:postal-code">N2L 3G1</span>
+      </div>
+    </div>
+    <div rel="v:tel">
+      <a href="tel:+1-519-888-4567" property="rdf:value">+1 519 888 4567</a>
+    </div>
+  </div>
+  
+    <ul class="global-menu"><li><a href="//uwaterloo.ca/about/how-find-us/contact-waterloo">Contact Waterloo</a></li><li><a href="//uwaterloo.ca/map/">Maps &amp; Directions</a></li><li><a href="http://hr.uwaterloo.ca/mycareer/">Employment</a></li></ul>
+    <ul class="global-menu"><li><a href="//uwaterloo.ca/news/">Media</a></li><li><a href="http://studentservices.uwaterloo.ca/disabilities/">Accessibility</a></li><li><a href="//uwaterloo.ca/about/how-find-us/contact-waterloo/contact-form" accesskey="9">Feedback</a></li></ul>
+    <ul class="global-menu"><li><a href="//uwaterloo.ca/privacy/">Privacy</a></li><li><a href="//uwaterloo.ca/copyright">Copyright</a></li></ul>
+    <ul class="global-menu social-media"><li><a href="//uwaterloo.ca/social-media/">University of Waterloo social media directory</a></li></ul></div>
+  </div>
+</div>
+
+    <script src="foundation-5.2.1/js/vendor/jquery.js"></script>
+    <noscript>You do not have scripts enabled. Enable scripts to properly view this content.</noscript>
+    <script src="foundation-5.2.1/js/foundation.min.js"></script>
+    <noscript>You do not have scripts enabled. Enable scripts to properly view this content.</noscript>
+    <script>
+        $(document).foundation();
+    </script>
+    <noscript>You do not have scripts enabled. Enable scripts to properly view this content.</noscript>
+    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+    <noscript>You do not have scripts enabled. Enable scripts to properly view this content.</noscript>
+</body>
+</html>
