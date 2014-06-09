@@ -1,0 +1,1159 @@
+/* Aligns links in the toolbar*/
+div.indentation {
+    float:left;
+    height:1.7em;
+    margin:-0.4em 0.2em -0.4em -0.4em;
+    padding:0.42em 0 0.42em 0.6em;
+    width:20px;
+}
+
+/* Hides the name of the Enterprise.*/
+html.js .js-hide {
+    display:none;
+}
+.element-hidden{display:none;}
+#uw-footer {
+    background:#000;
+    padding:16px 20px;
+    margin-top:10px;
+    font-size:.9em;
+    color:#fff;
+    line-height:1.5em;
+}
+
+/* Aligns footer to the right (clumsy)*/
+#header, #container {
+    height:100px;
+    background-color:black;
+    float:left;
+}
+
+.child{
+    float:left;
+    margin-right:5px;
+}
+/* other stuff */
+html {
+    font-size:100%;
+}
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, img, form, label, iframe, fieldset {
+    margin:0;
+    padding:0;
+    font-size:1em;
+    line-height:inherit;
+    font-weight:inherit;
+    border:none;
+}
+input, select, textarea, button {
+    font-size:1em;
+    line-height:inherit;
+    font-family:inherit;
+    margin:0;
+}
+optgroup {
+    font-family:inherit;
+}
+input[type=button], input[type=submit], button {
+    overflow:visible;
+}
+input[disabled], select[disabled], textarea[disabled], button[disabled] {
+    opacity:0.75;
+    height:26px;
+}
+#skip {
+    position:absolute;
+    z-index:1000;
+    left:37.5em;
+    width:8.5em;
+    text-align:center;
+    background:#fff;
+}
+#skip a {
+    display:block;
+    margin:8px;
+}
+#uw-search {
+    position:absolute;
+    top:20px;
+    right:10px;
+}
+#uw-search-label {
+    font-size:.9em;
+    display:inline;
+}
+#uw-search-label.js {
+    position:relative;
+    color:#000;
+    background-color:#fff;
+}
+#uw-search-term {
+    border:solid 1px #fff;
+    padding:2px;
+}
+.chevron-submit {
+    width:18px;
+    height:18px;
+    overflow:hidden;
+    text-indent:-999em;
+    line-height:0;
+    border:none;
+    background:url(/profiles/uw_base_profile/themes/uw_core_theme/images/search-arrows.png) no-repeat -18px 0;
+    color:#fff;
+    cursor:pointer;
+}
+@media only screen and(-webkit-min-device-pixel-ratio:2), only screen and(min-resolution:2dppx) {
+    .chevron-submit {
+        background:url(/profiles/uw_base_profile/themes/uw_core_theme/images/search-arrows-2x.png) no-repeat -18px 0;
+        background-size:54px 18px;
+    }
+}
+#uw-search-submit:focus {
+    background-position:0 0;
+}
+li.logout {
+    display:none;
+}
+dl > dt {
+    font-weight:bold;
+    margin-left:1em;
+    margin-top:1em;
+}
+dl > dd {
+    margin-left:3em;
+    margin-bottom:1em;
+}
+div.field-type-text-with-summary, div.form-item.webform-component {
+    clear:both;
+}
+.rteindent1 {
+    margin-left:2em;
+}
+.rteindent2 {
+    margin-left:4em;
+}
+.rteindent3 {
+    margin-left:6em;
+}
+.rteindent4 {
+    margin-left:8em;
+}
+img.image-left {
+    float:left;
+    margin:0 1em 1em 0;
+}
+img.image-right {
+    float:right;
+    margin:0 0 1em 1em;
+}
+img.image-center {
+    display:block;
+    margin:auto;
+}
+ul.circle {
+    list-style-type:circle;
+}
+ul.disc {
+    list-style-type:disc;
+}
+ul.square {
+    list-style-type:square;
+}
+ol.lower-roman {
+    list-style-type:lower-roman;
+}
+ol.upper-roman {
+    list-style-type:upper-roman;
+}
+ol.lower-alpha {
+    list-style-type:lower-alpha;
+}
+ol.upper-alpha {
+    list-style-type:upper-alpha;
+}
+ol.decimal {
+    list-style-type:decimal;
+}
+.page-search .search-form {
+    margin-bottom:2em;
+}
+.search-results {
+    margin:0;
+}
+.search-results li {
+    list-style:none;
+}
+.search-result {
+    border-bottom:1px solid #ccc;
+    padding:1em 0;
+}
+.search-results h3 {
+    margin:0;
+}
+.results_url {
+    margin-bottom:.5em;
+}
+.results_url a:link, .results_url a:visited {
+    color:#555;
+    text-decoration:none;
+}
+.search-results .search-snippet-info {
+    padding:0;
+}
+.page-search .pager {
+    padding:1em 0;
+}
+.page-search .pager a {
+    display:inline-block;
+    font-weight:bold;
+}
+.page-search .pager a:link {
+    text-decoration:none;
+    color:#03f;
+}
+.page-search .pager a:visited {
+    text-decoration:none;
+    color:#306;
+}
+.page-search .pager-current {
+    background-color:#923;
+    color:#fff;
+}
+#ie6message {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    padding:1em;
+    background-color:#c00;
+    color:white;
+    font-size:120%;
+    font-weight:bold;
+    text-align:center;
+}
+#ie6message a:link, #ie6message a:visited {
+    color:#00f;
+}
+.view .date-nav-wrapper .date-prev {
+    left:27em;
+}
+div#calendar_block {
+    width:200px
+}
+.checkmark-replace {
+    background:url(/profiles/uw_base_profile/themes/uw_core_theme/images/checkmark.png) no-repeat scroll left top transparent;
+    min-height:25px;
+    min-width:25px;
+    text-indent:-999em;
+}
+.comment h2.title {
+    margin-bottom:1em;
+}
+.comment div.user-picture img {
+    margin-left:0;
+}
+.comment {
+    margin-bottom:20px;
+    display:table;
+    vertical-align:top;
+}
+.comment .attribution {
+    display:table-cell;
+    padding:0 30px 0 0;
+    vertical-align:top;
+    overflow:hidden;
+}
+.comment .attribution img {
+    margin:0;
+    border:1px solid #d3d7d9;
+}
+.comment .attribution .username {
+    white-space:nowrap;
+}
+.comment .submitted p {
+    margin:4px 0;
+    font-size:1.071em;
+    line-height:1.2;
+}
+.comment .submitted .comment-time {
+    font-size:0.786em;
+    color:#68696b;
+}
+.comment .submitted .comment-permalink {
+    font-size:0.786em;
+    text-transform:lowercase;
+}
+.comment .content {
+    line-height:1.6;
+}
+.comment .comment-arrow {
+    background:url(/profiles/uw_base_profile/themes/uw_core_theme/images/comment-arrow.png) no-repeat 0 center transparent;
+    border-left:1px solid;
+    border-right:1px solid;
+    height:40px;
+    margin-left:-47px;
+    margin-top:10px;
+    position:absolute;
+    width:20px;
+}
+.comment .comment-arrow {
+    border-color:#ffffff;
+}
+.comment .comment-text {
+    border:1px solid #d3d7d9;
+    padding:10px 25px;
+    display:table-cell;
+    vertical-align:top;
+    position:relative;
+    width:100%
+}
+.comment .indented {
+    margin-left:40px;
+}
+.comment ul.links {
+    padding:0 0 0.25em 0;
+}
+.comment ul.links li {
+    padding:0 0.5em 0 0;
+}
+.comment-unpublished {
+    margin-right:5px;
+    padding:5px 2px 5px 5px;
+}
+.comment-unpublished .comment-text .comment-arrow {
+    border-left:1px solid #fff4f4;
+    border-right:1px solid #fff4f4;
+}
+.pager li.pager-previous a {
+    width:60px;
+}
+@font-face {
+    font-family:'iconic';
+    src:url(/profiles/uw_base_profile/themes/uw_core_theme/fonts/iconic.eot);
+    src:url(/profiles/uw_base_profile/themes/uw_core_theme/fonts/iconic.eot?#iefix) format('embedded-opentype'), url(/profiles/uw_base_profile/themes/uw_core_theme/fonts/iconic.svg#iconic) format('svg'), url(/profiles/uw_base_profile/themes/uw_core_theme/fonts/iconic.woff) format('woff'), url(/profiles/uw_base_profile/themes/uw_core_theme/fonts/iconic.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+[data-icon]:before {
+    font-family:'iconic';
+    content:attr(data-icon);
+    speak:none;
+    font-weight:normal;
+    line-height:1;
+    -webkit-font-smoothing:antialiased;
+}
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family:'iconic';
+    font-style:normal;
+    speak:none;
+    font-weight:normal;
+    line-height:1;
+    -webkit-font-smoothing:antialiased;
+}
+.icon-play:before {
+    content:"\e000";
+}
+.icon-pause:before {
+    content:"\e001";
+}
+body {
+    margin:0 auto;
+    min-width:100%;
+    font-family:arial, helvetica, sans-serif;
+    font-size:.75em;
+}
+p {
+    margin-bottom:1em;
+}
+#site {
+    background:#fff url(/sites/uwaterloo.ca/themes/uw_home_theme/images/watermark.png) no-repeat bottom right;
+    position:relative;
+}
+.front #uw-header {
+    border-bottom:2px solid #FCD450;
+}
+.front .featured {
+    padding:40px 20px;
+}
+.front .featured .quicktabs-wrapper {
+    float:left;
+    width:50em;
+    min-width:600px;
+    max-width:60%;
+}
+.featured {
+    background-color:#000;
+    padding:0 20px 40px 20px;
+    color:#fff;
+}
+.primary {
+    float:left;
+    width:61.7em;
+    min-width:740px;
+    max-width:74%;
+}
+.primary .featured {
+    margin:-20px 0 20px;
+    padding-top:40px;
+}
+.secondary {
+    float:right;
+    width:18.3em;
+    min-width:220px;
+    max-width:22%;
+    margin:20px;
+}
+.primary, .secondary {
+    margin-top:20px;
+}
+.primary .content {
+    margin:0 20px;
+}
+.secondary .block {
+    margin-bottom:20px;
+}
+.alert {
+    border:solid 20px #923;
+    border-top:none;
+    background:#fff;
+}
+.alert .alert-date, .alert h2 {
+    background:#923;
+    margin:0;
+    color:#fff;
+}
+.alert h2 {
+    font-size:2em;
+    font-weight:bold;
+    padding:20px 0 0;
+}
+.alert .alert-date {
+    font-size:1.4em;
+    font-weight:normal;
+    display:block;
+    padding:10px 0;
+}
+.alert .alert-message {
+    padding:10px 20px 20px;
+    background-color:#eee;
+}
+.alert p {
+    margin:10px 0 0;
+    font-size:1.2em;
+}
+a, a:visited {
+    color:#923;
+}
+a:hover, a:focus {
+    color:#03f;
+}
+.content ul, .content ol {
+    margin:0 0 2em 2em;
+}
+.content li {
+    margin:0 0 1em;
+}
+h1 {
+    background:#FCD450;
+    padding:6px 20px;
+    font-size:2em;
+    text-transform:uppercase;
+}
+h2 {
+    font-size:1.8em;
+    margin:0 0 20px;
+}
+h3 {
+    font-size:1.3em;
+    margin:1em 0;
+}
+h4 {
+    font-size:1.2em;
+    margin:1em 0;
+    font-weight:bold;
+}
+.black, .homepage-news-events h2 {
+    font-size:1.1em;
+    color:#fff;
+    background-color:#000;
+    text-transform:uppercase;
+    padding:5px 10px;
+    font-weight:bold;
+    margin:0;
+}
+.blocklinks ul, ul.blocklinks {
+    margin:0 0 2em;
+    list-style-image:none;
+    list-style-type:none;
+}
+.blocklinks ul li, ul.blocklinks li {
+    margin-bottom:0;
+}
+.blocklinks a {
+    display:block;
+    position:relative;
+    color:#000;
+    padding:5px 10px;
+    font-size:1em;
+    background:#eee;
+    border-top:solid 2px #fff;
+    text-decoration:none;
+}
+.blocklinks a:visited {
+    color:#000;
+}
+.blocklinks a:hover, .blocklinks a:focus {
+    color:#000;
+    background:#FCD450;
+    text-decoration:none;
+}
+.blocklinks .wrapper {
+    margin-left:10px;
+    margin-right:10px;
+}
+.blocklinks a.image {
+    padding:10px;
+}
+.blocklinks strong.heading {
+    display:block;
+    font-size:2em;
+    margin:10px 0 5px;
+}
+.columns-wrapper {
+    margin:0;
+    overflow:hidden;
+}
+.columns-wrapper.three .column {
+    float:left;
+    width:18.3em;
+    min-width:220px;
+    max-width:31%;
+    margin-left:10px;
+    padding-left:10px;
+}
+.columns-wrapper.two .column {
+    float:left;
+    width:28.3em;
+    min-width:340px;
+    max-width:48%;
+    margin-left:20px;
+}
+.columns-wrapper .column:first-child {
+    margin-left:0;
+    border-left:none;
+    padding-left:0;
+}
+.toplinks {
+    width:220px;
+    margin:20px 20px 0;
+    float:right;
+}
+.toplinks .blocklinks ul {
+    margin-bottom:10px;
+}
+.feature-item {
+    position:relative;
+    min-height:320px;
+    height:24em;
+    background:#000;
+}
+.feature-item h2 {
+    margin:0;
+    font-size:1.66em;
+}
+.feature-item a {
+    color:#FCD450;
+    text-decoration:none;
+    cursor:pointer;
+}
+.feature-item h2 a {
+    display:inline-block;
+}
+.feature-item a:visited, .feature-item h2 a:hover {
+    color:#FCD450;
+    text-decoration:none;
+}
+.feature-item .headline {
+    float:left;
+    width:9em;
+    margin:40px 200px 0 0;
+    padding:0 40px 1.2em 0;
+}
+.feature-item a .chevrons {
+    position:absolute;
+    left:9.5em;
+    top:48px;
+    background:url(/sites/uwaterloo.ca/themes/uw_home_theme/images/sprites.png) no-repeat 0 -22px;
+    width:56px;
+    height:53px;
+    z-index:500;
+}
+.feature-item a:hover .chevrons, .feature-item a:focus .chevrons {
+    background-position:-56px -22px;
+}
+.feature-item .image {
+    position:absolute;
+    left:11em;
+    line-height:0;
+}
+.feature-item a .corner {
+    position:absolute;
+    bottom:0;
+    right:0;
+    background:url(/sites/uwaterloo.ca/themes/uw_home_theme/images/sprites.png) no-repeat 0 -93px;
+    width:26px;
+    height:26px;
+    display:none;
+}
+.feature-item a:hover .corner, .feature-item a:focus .corner {
+    display:block;
+}
+.feature-item .subhead {
+    color:#fff;
+    width:15em;
+    margin:0;
+    padding:0 40px 0 0;
+    line-height:1.6em;
+}
+.feature-item .subhead a {
+    color:#FCD450;
+}
+.feature-item .subhead a:hover {
+    text-decoration:underline;
+}
+.featured .quicktabs-wrapper {
+    position:relative;
+    height:320px;
+    min-width:600px;
+}
+.featured .quicktabs-tabpage {
+    position:absolute;
+    min-height:320px;
+    min-width:600px;
+}
+.featured .quicktabs-tabpage .feature-item, .featured .quicktabs-tabpage .feature-item h2, .featured .quicktabs-tabpage .feature-item a, .featured .quicktabs-tabpage .feature-item span {
+    filter:inherit;
+}
+.featured .slideshow-control {
+    position:absolute;
+    bottom:4px;
+    left:0;
+    z-index:100;
+    margin:0;
+    padding:0;
+    display:block;
+    width:14px;
+    height:14px;
+    border:solid 1px #000;
+    text-indent:-999px;
+    background:url(/sites/uwaterloo.ca/themes/uw_home_theme/images/sprites.png) no-repeat -70px -75px;
+    cursor:pointer;
+}
+.featured .slideshow-control.pause {
+    background-position:-70px -75px;
+}
+.featured .slideshow-control.play {
+    background-position:-56px -75px;
+}
+.featured .slideshow-control:focus {
+    border:solid 1px #FCD450;
+}
+.featured .quicktabs-tabs {
+    position:absolute;
+    bottom:0;
+    left:22px;
+    margin:0;
+    z-index:100;
+}
+.featured .quicktabs-tabs li {
+    display:block;
+    float:left;
+    margin:0;
+}
+.featured .quicktabs-tabs li a {
+    display:block;
+    width:14px;
+    height:14px;
+    text-indent:-999px;
+    background:url(/sites/uwaterloo.ca/themes/uw_home_theme/images/sprites.png) no-repeat -84px -75px;
+    margin:0 8px;
+    float:left;
+    border:solid 1px #000;
+}
+.featured .quicktabs-tabs li.active a {
+    background-position:-98px -75px;
+}
+.featured .quicktabs-tabs li a:focus {
+    border:solid 1px #FCD450;
+}
+.featured-secondary {
+    float:left;
+    width:30em;
+    min-width:360px;
+    max-width:36%;
+    color:#fff;
+}
+#positioning-text {
+    float:right;
+    width:18.3em;
+    min-width:220px;
+}
+#positioning-text .homepage-headline, .node-type-homepage-positioning-text .homepage-headline {
+    font-size:3em;
+    margin:20px 0;
+    display:block;
+}
+.positioning-text {
+    font-weight:bold;
+}
+.positioning-text .no-bold {
+    font-weight:normal;
+}
+.positioning-text strong {
+    font-size:1.6em;
+}
+.countin {
+    font-family:arial, monospace;
+    display:inline-block;
+}
+.yellow {
+    color:#FCD450;
+}
+#positioning-stories {
+    clear:right;
+    padding:5px 0 0 40px;
+}
+#positioning-stories h2 {
+    font-weight:bold;
+    color:#FCD450;
+    text-transform:uppercase;
+    font-size:1em;
+    margin-bottom:10px;
+    padding-left:5px;
+}
+#positioning-stories a {
+    color:#fff;
+    text-decoration:none;
+}
+#positioning-stories a:hover {
+    text-decoration:none;
+    color:#FCD450;
+}
+#positioning-stories .item-list ul {
+    list-style-type:none;
+    margin:0;
+}
+#positioning-stories .item-list ul li {
+    list-style-type:none;
+    margin:0;
+    float:left;
+}
+.positioning-story {
+    display:block;
+    float:left;
+    padding:0 .8em 0 0;
+    text-align:center;
+    text-transform:lowercase;
+    width:5.4em;
+    min-width:70px;
+    max-width:21%;
+    position:relative;
+}
+.positioning-story span {
+    display:block;
+    position:relative;
+    z-index:300;
+}
+.positioning-story img {
+    display:block;
+    margin:0 auto 20px;
+}
+.positioning-story span.topic:before {
+    display:block;
+    content:'';
+    width:7px;
+    height:28px;
+    background:url(/sites/uwaterloo.ca/themes/uw_home_theme/images/sprites.png) no-repeat -7px -119px;
+    position:absolute;
+    top:-32px;
+    left:32px;
+}
+.positioning-story:hover span.topic:before, .positioning-story:focus span.topic:before {
+    background-position:0 -119px;
+    z-index:300;
+}
+.positioning-story:hover, .positioning-story:focus {
+    color:#FCD450;
+    text-decoration:none;
+}
+.positioning-story .hover {
+    position:absolute;
+    width:1px;
+    height:1px;
+    left:-9999em;
+    overflow:hidden;
+}
+.positioning-story:hover .hover, .positioning-story:focus .hover {
+    width:auto;
+    height:auto;
+    overflow:visible;
+}
+.positioning-story:hover span.topic, .positioning-story:focus span.topic {
+    color:#000;
+}
+.positioning-story:hover span.hover, .positioning-story:focus span.hover {
+    display:block;
+    text-transform:none;
+    background:#000;
+    top:61px;
+    left:-10px;
+    margin:0;
+    text-align:center;
+    z-index:400;
+    color:#FCD450;
+    text-decoration:none;
+}
+.positioning-story:hover .hover.hover-image, .positioning-story:focus .hover.hover-image {
+    display:block;
+    position:absolute;
+    top:-42px;
+    left:-30px;
+    z-index:200;
+}
+#audience {
+    margin:0;
+    padding-top:20px;
+    position:relative;
+}
+#audience .quicktabs-wrapper .item-list {
+    float:right;
+    margin:0 20px;
+    width:18.3em;
+    min-width:220px;
+    max-width:22%;
+    position:relative;
+}
+#audience .quicktabs-wrapper .item-list .keyboard-help {
+    position:absolute;
+    bottom:-2.5em;
+    padding:0 20px;
+}
+#audience ul.quicktabs-tabs li {
+    font-size:1.1em;
+    text-transform:uppercase;
+    font-weight:bold;
+    display:block;
+    list-style-type:none;
+    list-style-image:none;
+    margin:0 0 0 -20px;
+    padding:0 0 0 20px;
+}
+#audience ul.quicktabs-tabs li a {
+    display:inline-block;
+    width:15em;
+    min-width:180px;
+    max-width:80%;
+    padding:7px 0 8px 40px;
+    border-top:solid 1px #333;
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+}
+#audience ul.quicktabs-tabs li a:hover, #audience ul.quicktabs-tabs li a:focus {
+    color:#000;
+    background:#FCD450;
+    border-color:#FCD450;
+}
+#audience ul.quicktabs-tabs li a:focus {
+    text-decoration:underline;
+}
+#audience ul.quicktabs-tabs li.active {
+    background:url(/sites/uwaterloo.ca/themes/uw_home_theme/images/tab-active.png) no-repeat top left;
+    border:none;
+}
+#audience ul.quicktabs-tabs li.active a {
+    color:#000;
+    background:#FCD450;
+    border-color:#FCD450;
+}
+#audience .quicktabs_main {
+    float:left;
+    width:61.7em;
+    min-width:740px;
+    max-width:74%;
+}
+#audience .columns-wrapper {
+    margin:0 20px;
+}
+#audience .columns-wrapper.three .column {
+    margin-left:20px;
+    padding-left:0;
+    border-left:none;
+    list-style-type:none;
+}
+#audience .columns-wrapper.three .column:first-child {
+    margin-left:0;
+}
+#audience .view-footer {
+    border-top:dotted 2px #000;
+    margin:20px 0 0 20px;
+}
+#audience .quicktabs_main .morelink {
+    float:right;
+    margin:-1.5em 0 0 0;
+    padding:10px 20px 10px 10px;
+    background:#fff;
+}
+a.audience-item {
+    text-decoration:none;
+    color:#fff;
+}
+a.audience-item:hover {
+    text-decoration:none;
+}
+.audience-item {
+    display:block;
+    position:relative;
+}
+.audience-item span {
+    display:block;
+}
+.audience-item .image {
+    line-height:0;
+    background-color:#000;
+}
+.audience-item .text {
+    padding:10px;
+    background:#000;
+    color:#fff;
+    min-height:50px;
+}
+.audience-item .heading {
+    color:#FCD450;
+    text-transform:uppercase;
+    font-weight:bold;
+    margin:0 6px 5px 0;
+    position:relative;
+}
+.audience-item .subhead {
+    padding-right:30px;
+}
+.audience-item .corner {
+    position:absolute;
+    bottom:0;
+    right:0;
+    background:url(/sites/uwaterloo.ca/themes/uw_home_theme/images/sprites.png) no-repeat -26px -93px;
+    width:26px;
+    height:26px;
+    display:none;
+}
+a.audience-item:hover .corner, a.audience-item:focus .corner {
+    display:block;
+}
+a.audience-item:focus .heading {
+    text-decoration:underline;
+}
+.audience-item .heading:after {
+    content:' \00bb';
+    color:#fff;
+    position:absolute;
+    right:-12px;
+    top:0;
+}
+a.audience-item:hover .heading:after, a.audience-item:focus .heading:after {
+    color:#FCD450;
+}
+#audience .ajax-progress {
+    position:absolute;
+    top:6px;
+    left:6px;
+}
+.homepage-news-events {
+    margin:0 20px;
+}
+.homepage-news-events ul {
+    margin:0;
+    padding:0;
+}
+.homepage-news-events li {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.front .content .primary h2 {
+    margin-bottom:0;
+}
+.news-item .title, .event-item .title {
+    font-weight:bold;
+    background:none;
+    color:#000;
+    margin:0 0 5px;
+    padding:0;
+    display:block;
+}
+.news-item .teaser, .event-item .teaser {
+    display:block;
+}
+.news-item.image .title, .news-item.image .teaser {
+    margin-left:65px;
+}
+.news-item img {
+    float:left;
+    margin:0 10px 0 0;
+    line-height:0;
+}
+.news-item, .event-item {
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    border-bottom:dotted 2px #000;
+}
+a.news-item:hover, a.news-item:focus, a.event-item:hover, a.event-item:focus {
+    text-decoration:none;
+    color:#333;
+    background:#eee;
+}
+.event-item .title, .event-item .teaser {
+    margin-left:8em;
+}
+.event-item .date {
+    display:block;
+    float:left;
+    width:8em;
+    font-weight:bold;
+    margin-top:-2px;
+}
+.event-item .date .day {
+    float:left;
+    font-size:3em;
+    line-height:1em;
+    color:#999;
+    display:inline-block;
+    width:1.2em;
+}
+.event-item .date .month, .event-item .date .year {
+    display:inline-block;
+    text-transform:uppercase;
+    width:40px;
+    margin:2px 0 0 5px;
+}
+.event-item .date .month {
+    font-size:1.2em;
+}
+a.news-item, a.event-item {
+    color:#333;
+}
+a.news-item.sticky, a.event-item.sticky {
+    border-bottom:solid 2px #FCD450;
+    background-color:#ffc;
+}
+a.news-item.sticky:hover, a.news-item.sticky:focus, a.event-item.sticky:hover, a.event-item.sticky:focus {
+    background-color:#eee;
+}
+.morelink {
+    text-align:right;
+    padding:10px;
+}
+.morelink a {
+    font-weight:bold;
+    text-decoration:none;
+    border-bottom:solid 1px #aaa;
+}
+.morelink a:hover, .morelink a:focus {
+    color:#923;
+    border-color:#923;
+}
+#pathway-links {
+    z-index:500;
+    position:absolute;
+    right:10px;
+    text-transform:uppercase;
+    margin-top:1.1em;
+}
+#pathway-links h2 {
+    display:none;
+}
+#pathway-links ul {
+    list-style:none;
+}
+#pathway-links li {
+    float:left;
+    border-left:solid 1px #000;
+    padding:0 10px;
+    list-style-type:none;
+    list-style-image:none;
+}
+#pathway-links li:first-child {
+    border:none;
+}
+#pathway-links li a {
+    text-decoration:none;
+    display:block;
+}
+#pathway-links li a:hover {
+    text-decoration:underline;
+}
+#pathway-links li a, #pathway-links li a:visited, #pathway-links li a:hover {
+    color:#000;
+}
+body.emergency {
+    background:#111;
+}
+.alert.emergency {
+    border:none;
+    background:#eee;
+}
+.alert.emergency h1 {
+    background:#923;
+    color:#fff;
+}
+.alert.emergency .alert-date {
+    padding:10px 20px;
+}
+.alert.emergency h2 {
+    font-size:1.8em;
+    padding:0;
+    background-color:#eee;
+    color:#000;
+}
+.alert .regular-homepage {
+    float:left;
+    margin-left:20px;
+}
+body.emergency #uw-footer {
+    margin-top:0;
+}
+div.workbench-info-block {
+    margin-bottom:20px;
+}
+.node-type-homepage-events .primary .event-item {
+    width:320px;
+}
+.node-type-homepage-news .primary .news-item {
+    width:320px;
+}
+.node-type-homepage-audience-panel .primary .audience-item {
+    width:220px;
+}
+.node-type-alerts .primary, .node-type-alerts-major .primary {
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+}
+.node-type-alerts #alert {
+    display:none;
+}
+.node-type-alerts-major #emergency {
+    display:none;
+}
+.node-type-homepage-positioning-text .primary .positioning-text {
+    width:18.3em;
+    min-width:220px;
+    font-weight:bold;
+    color:#fff;
+    background:#000;
+    padding:20px;
+}
+li.logout {
+    display:list-item;
+}
+
